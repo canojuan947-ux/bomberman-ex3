@@ -1,0 +1,12 @@
+services:
+
+  bomberman:
+
+    build: .
+
+    container_name: bomberman-container
+
+    ports:
+      - "5000:5000"
+
+    restart: always

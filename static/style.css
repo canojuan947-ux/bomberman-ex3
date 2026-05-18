@@ -1,0 +1,67 @@
+body{
+    background:#0d0d0d;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
+
+h1{
+    color:orange;
+}
+
+.hud{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:20px;
+    font-size:20px;
+}
+
+#game{
+    margin:20px auto;
+    display:grid;
+    grid-template-columns: repeat(15, 42px);
+    width:max-content;
+}
+
+.cell{
+    width:42px;
+    height:42px;
+    border:1px solid #1b1b1b;
+}
+
+.wall{
+    background:#5a5a5a;
+}
+
+.floor{
+    background:#1c1c1c;
+}
+
+.breakable{
+    background:#8b4513;
+}
+
+.player{
+    background:limegreen;
+}
+
+.enemy{
+    background:crimson;
+}
+
+.fastEnemy{
+    background:purple;
+}
+
+.bomb{
+    background:black;
+}
+
+.explosion{
+    background:orange;
+}
+
+.controls{
+    margin-top:20px;
+}
