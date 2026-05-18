@@ -59,6 +59,11 @@ Ejecutar el contenedor:
 sudo docker run -it bomberman
 ```
 
+Abrir en el navegador:
+```bash
+http://localhost:5000
+```
+
 ## Controles
 
 - W A S D → Movimiento
